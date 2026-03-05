@@ -1,0 +1,174 @@
+{
+  "Metadata": {
+    "title": "NEO - Inženjerstvo za budućnost letenja",
+    "description": "Od ideje do realizacije, NEO pruža inženjerska rešenja svetske klase za aerodrome i vazdušne luke."
+  },
+  "Navbar": {
+    "menu": "Meni",
+    "links": {
+      "home": "Početna",
+      "about": "O nama",
+      "projects": "Projekti",
+      "contact": "Kontakt"
+    },
+    "copyright": "2026 NEO",
+    "location": "Beograd, Srbija"
+  },
+  "Footer": {
+    "siteMap": "[MAPA SAJTA]",
+    "contact": "[KONTAKT]",
+    "address": "[ADRESA]",
+    "links": {
+      "home": "početna",
+      "about": "o nama",
+      "projects": "projekti",
+      "contact": "kontakt"
+    },
+    "addressLines": {
+      "street": "Narodnih heroja 42",
+      "city": "11070 Beograd",
+      "country": "Srbija"
+    }
+  },
+  "HomePage": {
+    "hero": {
+      "line1": "Inženjerstvo za",
+      "line2": "budućnost letenja.",
+      "subtitle": "Od ideje do realizacije, NEO pruža inženjerska rešenja svetske klase za aerodrome i vazdušne luke."
+    },
+    "about": {
+      "highlight": "NEO Aerodromes Engineering je vodeća srpska inženjerska konsultantska firma",
+      "rest": "i projektantsko preduzeće specijalizovano za projektovanje aerodroma i aerodromske infrastrukture.",
+      "readMore": "Saznajte više"
+    },
+    "services": {
+      "title1": "Šta projektujemo,",
+      "title2": "planiramo i nadziremo."
+    },
+    "cta": {
+      "text": "Sa multidisciplinarnim timom i decenijom dokazane stručnosti, projektujemo bezbednu, održivu i budućnosti prilagođenu vazduhoplovnu infrastrukturu",
+      "button": "Kontaktirajte nas"
+    },
+    "currentProjects": {
+      "title": "Izbor projekata na kojima NEO trenutno radi."
+    }
+  },
+  "AboutPage": {
+    "hero": {
+      "title": "Ko smo mi",
+      "subtitle": "NEO Aerodromes Engineering je vodeća srpska inženjerska konsultantska firma i projektantsko preduzeće specijalizovano za projektovanje aerodroma i aerodromske infrastrukture."
+    },
+    "mission": {
+      "highlight": "Vođeni preciznošću, inovacijama i odgovornošću, svakom projektu pristupamo",
+      "rest": "sa snažnom posvećenošću kvalitetu, bezbednosti i spremnosti za budućnost."
+    },
+    "description": {
+      "p1": "NEO Aerodromes Engineering je vodeća srpska inženjerska konsultantska firma i projektantsko preduzeće specijalizovano za projektovanje aerodroma i aerodromske infrastrukture. Od osnivanja 2014. godine, posvećeni smo pružanju visokokvalitetnih, sveobuhvatnih i stručno projektovanih rešenja za projekte civilne vazduhoplovne infrastrukture — kako u Srbiji, tako i na međunarodnim tržištima.",
+      "p2": "Sa sedištem u Beogradu, poslujemo kao multidisciplinarna firma sastavljena od bogatog i raznolikog tima građevinskih inženjera, konstruktera, hidrotehničkih stručnjaka, saobraćajnih inženjera, specijalista za elektro i telekomunikacione sisteme i arhitekata. Naše kolektivno znanje nam omogućava da se suočimo sa složenim infrastrukturnim izazovima integrisanim i celokupnim pristupom.",
+      "p3": "Sa visokokvalifikovanim timom koji poseduje decenije kombinovanog iskustva, NEO je odigrao ključnu ulogu u modernizaciji i proširenju važnih nacionalnih i regionalnih aerodroma. Naša stručnost obuhvata oblast od master planiranja i građevinskog projektovanja do konstrukcija kolovoznih površina, sistema za odvod atmosferskih voda, elektro infrastrukture, oznaka na manevarskim površinama i platformama, kao i stručnog nadzora nad izgradnjom.",
+      "p4": "Ponosni smo što doprinosimo unapređenju vazdušnog saobraćaja pružajući bezbedna, održiva i efikasna aerodromska okruženja usklađena sa ICAO standardima i EASA propisima, očekivanjima klijenata i rastućim zahtevima vazduhoplovne industrije. Vođeni preciznošću, inovacijama i odgovornošću, svakom projektu pristupamo sa snažnom posvećenošću kvalitetu, bezbednosti i spremnosti za budućnost."
+    },
+    "services": {
+      "title1": "Šta projektujemo,",
+      "title2": "planiramo i nadziremo."
+    }
+  },
+  "ProjectsPage": {
+    "hero": {
+      "title1": "Iskustvo na",
+      "title2": "aerodromskim projektima",
+      "count": "[15]",
+      "subtitle": "Pregled završenih i tekućih projekata na nacionalnim i regionalnim aerodromima."
+    },
+    "finishedLabel": "Završeni projekti",
+    "finishedCount": "[8]",
+    "ongoingTitle": "Izbor projekata na kojima NEO trenutno radi."
+  },
+  "ProjectTemplate": {
+    "country": "Država",
+    "employer": "Naručilac",
+    "contractDate": "Datum ugovora",
+    "beneficiary": "Korisnik",
+    "disciplines": "Discipline",
+    "aboutProject": "O projektu",
+    "scopeOfProject": "Obim projekta",
+    "nextProject": "[sledeći projekat]"
+  },
+  "MapSection": {
+    "title": "Infrastrukturni projekti isporučeni sa preciznošću i pažnjom.",
+    "seeAll": "Prikaži sve"
+  },
+  "Services": {
+    "masterPlans": {
+      "title": "Izrada master planova za međunarodne i domaće aerodrome",
+      "description": "Master planovi služe kao dugoročni strateški okviri za razvoj aerodroma, obezbeđujući da mogu da ispune buduću potražnju uz poštovanje regulatornih, ekoloških i operativnih zahteva. Uključuju prognoze putničkog i teretnog saobraćaja, planove za proširenje infrastrukture, strategije korišćenja zemljišta, ekološka razmatranja i integraciju novih tehnologija."
+    },
+    "conops": {
+      "title": "Koncept operacija (CONOPS)",
+      "description": "Koncept operacija je dokument visokog nivoa koji definiše viziju, ciljeve i operativne strategije aerodroma. Opisuje kako će aerodrom svakodnevno funkcionisati, detaljno navodeći uloge i odgovornosti zainteresovanih strana, kao što su avio-kompanije, aerodromske uprave i bezbednosne agencije. CONOPS takođe opisuje procese za opsluživanje putnika i tereta, procedure za reagovanje u vanrednim situacijama i uvođenje novih sistema i tehnologija."
+    },
+    "runways": {
+      "title": "Projektovanje poletno-sletnih staza, rulnih staza i platformi sa pripadajućim sistemima i instalacijama",
+      "description": "Projektovanje infrastrukture vazdušne strane aerodroma obuhvata detaljno planiranje poletno-sletnih staza, rulnih staza i platformi u cilju ispunjenja zahteva kapaciteta, bezbednosti i propisa. To uključuje projektovanje konstrukcije kolovoza za podnošenje velikih opterećenja vazduhoplova, odvod atmosferskih voda za sprečavanje poplava, elektro sisteme i sisteme osvetljenja (jakostrujne i slabostrujne), horizontalne i vertikalne oznake za navigaciju, kao i sisteme svetlosne signalizacije na aerodromu (AGL) za operacije noću i u uslovima smanjene vidljivosti."
+    },
+    "heliport": {
+      "title": "Projektovanje heliodroma sa pripadajućim sistemima i instalacijama",
+      "description": "Projektovanje heliodroma obuhvata planiranje i inženjersko oblikovanje zona za sletanje i poletanje helikoptera, uz obezbeđivanje usklađenosti sa međunarodnim vazduhoplovnim standardima. To uključuje projektovanje prilaznih i odlaznih putanja, sistema osvetljenja za vidljivost, vatrogasnih i spasilačkih objekata, komunikacionih sistema i bezbednosnih oznaka."
+    },
+    "controlTower": {
+      "title": "Projektovanje kontrolnog tornja sa pripadajućim sistemima i instalacijama",
+      "description": "Projektovanje tornja za kontrolu letenja (ATC) zahteva razmatranje kako arhitektonske funkcionalnosti, tako i operativne efikasnosti. Struktura mora da pruži neometan pogled na sve površine za kretanje, dok njeni sistemi uključuju opremu za komunikaciju, navigaciju, radar i meteorologiju."
+    },
+    "highways": {
+      "title": "Projektovanje autoputeva i puteva sa pripadajućim sistemima i instalacijama",
+      "description": "Projektovanje putne infrastrukture obuhvata inženjersko oblikovanje autoputeva, servisnih puteva i parking objekata. Uključuje projektovanje kolovoza, odvod voda, oznake, osvetljenje i sisteme za upravljanje saobraćajem u cilju obezbeđivanja nesmetanog kretanja putnika."
+    },
+    "supervision": {
+      "title": "Stručni nadzor nad izgradnjom aerodroma, heliodroma, autoputeva i puteva",
+      "description": "Stručni nadzor nad izgradnjom obezbeđuje da se svi infrastrukturni projekti izvode u skladu sa projektnom dokumentacijom, bezbednosnim propisima i standardima kvaliteta. To podrazumeva nadgledanje izvođača radova, praćenje napretka, upravljanje budžetom i obezbeđivanje blagovremenog završetka radova."
+    }
+  },
+  "ContactPage": {
+    "title": "Stupite u Kontakt\nSa Našim Timom",
+    "address": "[ADRESA]",
+    "socials": "[MREŽE]",
+    "contact": "[KONTAKT]",
+    "socialLinks": {
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "x": "X"
+    }
+  },
+  "OngoingProjects": [
+    {
+      "name": "Aerodrom 'Nikola Tesla'",
+      "location": "Beograd, Srbija",
+      "tags": ["Proširenje okretišta 30R", "Idejno rešenje za novu platformu za generalno vazduhoplovstvo"]
+    },
+    {
+      "name": "Serengeti International Airport",
+      "location": "Tanzanija",
+      "tags": ["Konsultantske usluge za studiju izvodljivosti i projektovanje"]
+    },
+    {
+      "name": "Skardu Airport",
+      "location": "Pakistan",
+      "tags": ["Proširenje aerodroma"]
+    },
+    {
+      "name": "'EXPO 2027' Beograd",
+      "location": "Beograd",
+      "tags": ["Novi vertiport i terminal javnog prevoza", "Parking E3", "Projekat za ulicu Nova 5"]
+    },
+    {
+      "name": "Bukavu Airport",
+      "location": "DR Kongo",
+      "tags": ["Produženje postojeće poletno-sletne staze"]
+    },
+    {
+      "name": "Lubumbashi Airport",
+      "location": "DR Kongo",
+      "tags": ["Proširenje postojeće platforme"]
+    }
+  ]
+}

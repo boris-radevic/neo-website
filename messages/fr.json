@@ -1,0 +1,174 @@
+{
+  "Metadata": {
+    "title": "NEO - Concevoir l'avenir de l'aviation",
+    "description": "De la conception à la réalisation, NEO fournit des solutions d'ingénierie de classe mondiale pour les aéroports et les aérodromes."
+  },
+  "Navbar": {
+    "menu": "Menu",
+    "links": {
+      "home": "Accueil",
+      "about": "À propos",
+      "projects": "Projets",
+      "contact": "Contactez-nous"
+    },
+    "copyright": "2026 NEO",
+    "location": "Belgrade, Serbie"
+  },
+  "Footer": {
+    "siteMap": "[PLAN DU SITE]",
+    "contact": "[CONTACT]",
+    "address": "[ADRESSE]",
+    "links": {
+      "home": "accueil",
+      "about": "à propos",
+      "projects": "projets",
+      "contact": "contact"
+    },
+    "addressLines": {
+      "street": "42, Narodnih heroja St.",
+      "city": "11070 Belgrade",
+      "country": "Serbie"
+    }
+  },
+  "HomePage": {
+    "hero": {
+      "line1": "Concevoir l'avenir",
+      "line2": "de l'aviation.",
+      "subtitle": "De la conception à la réalisation, NEO fournit des solutions d'ingénierie de classe mondiale pour les aéroports et les aérodromes."
+    },
+    "about": {
+      "highlight": "NEO Aerodromes Engineering est un bureau d'études et de conseil en ingénierie de premier plan en Serbie,",
+      "rest": "spécialisé dans la conception aéroportuaire et les infrastructures.",
+      "readMore": "En savoir plus"
+    },
+    "services": {
+      "title1": "Ce que nous concevons,",
+      "title2": "planifions et supervisons."
+    },
+    "cta": {
+      "text": "Avec une équipe pluridisciplinaire et une décennie d'expertise avérée, nous concevons des infrastructures aéronautiques sûres, durables et tournées vers l'avenir",
+      "button": "Contactez-nous"
+    },
+    "currentProjects": {
+      "title": "Une sélection de projets sur lesquels NEO travaille actuellement."
+    }
+  },
+  "AboutPage": {
+    "hero": {
+      "title": "Qui sommes-nous",
+      "subtitle": "NEO Aerodromes Engineering est un bureau d'études et de conseil en ingénierie de premier plan en Serbie, spécialisé dans la conception aéroportuaire et les infrastructures."
+    },
+    "mission": {
+      "highlight": "Guidés par la précision, l'innovation et la responsabilité, nous abordons chaque projet",
+      "rest": "avec un engagement fort envers la qualité, la sécurité et la préparation à l'avenir."
+    },
+    "description": {
+      "p1": "NEO Aerodromes Engineering est un bureau d'études et de conseil en ingénierie de premier plan en Serbie, spécialisé dans la conception aéroportuaire et les infrastructures. Depuis notre création en 2014, nous nous engageons à fournir des solutions de conception de haute qualité, complètes et expertement conçues pour les projets d'infrastructure de l'aviation civile — tant en Serbie que sur les marchés internationaux.",
+      "p2": "Basés à Belgrade, nous opérons en tant que bureau pluridisciplinaire composé d'une équipe riche et diversifiée d'ingénieurs en génie civil, ingénieurs en structures, experts en hydrotechnique, ingénieurs en transports, spécialistes en systèmes électriques et de télécommunications, et architectes. Notre savoir-faire collectif nous permet de relever des défis infrastructurels complexes avec une approche intégrée et globale.",
+      "p3": "Avec une équipe hautement qualifiée possédant des décennies d'expérience cumulée, NEO a joué un rôle déterminant dans la modernisation et l'expansion d'aéroports nationaux et régionaux majeurs. Notre expertise s'étend de la planification directrice et de la conception en génie civil aux structures de chaussées, systèmes de drainage des eaux pluviales, infrastructures électriques, marquages côté piste et côté ville, et à la supervision de chantier.",
+      "p4": "Nous sommes fiers de contribuer à l'avancement du transport aérien en offrant des environnements aéroportuaires sûrs, durables et efficaces, conformes aux normes ICAO et aux réglementations EASA, aux attentes des clients et aux exigences en constante évolution de l'industrie aéronautique. Guidés par la précision, l'innovation et la responsabilité, nous abordons chaque projet avec un engagement fort envers la qualité, la sécurité et la préparation à l'avenir."
+    },
+    "services": {
+      "title1": "Ce que nous concevons,",
+      "title2": "planifions et supervisons."
+    }
+  },
+  "ProjectsPage": {
+    "hero": {
+      "title1": "Expérience à travers",
+      "title2": "projets aéroportuaires",
+      "count": "[15]",
+      "subtitle": "Un aperçu des projets achevés et en cours à travers les aéroports nationaux et régionaux."
+    },
+    "finishedLabel": "Projets achevés",
+    "finishedCount": "[8]",
+    "ongoingTitle": "Une sélection de projets sur lesquels NEO travaille actuellement."
+  },
+  "ProjectTemplate": {
+    "country": "Pays",
+    "employer": "Employeur",
+    "contractDate": "Date du contrat",
+    "beneficiary": "Bénéficiaire",
+    "disciplines": "Disciplines",
+    "aboutProject": "À propos du projet",
+    "scopeOfProject": "Portée du projet",
+    "nextProject": "[projet suivant]"
+  },
+  "MapSection": {
+    "title": "Des projets d'infrastructure réalisés avec précision et soin.",
+    "seeAll": "Voir tout"
+  },
+  "Services": {
+    "masterPlans": {
+      "title": "Élaboration de plans directeurs pour les aéroports internationaux et nationaux",
+      "description": "Les plans directeurs servent de cadres stratégiques à long terme pour le développement des aéroports, garantissant qu'ils puissent répondre à la demande future tout en respectant les exigences réglementaires, environnementales et opérationnelles. Ils comprennent des prévisions de trafic passagers et fret, des plans d'expansion des infrastructures, des stratégies d'utilisation des sols, des considérations environnementales et l'intégration de nouvelles technologies."
+    },
+    "conops": {
+      "title": "Concept d'opérations (CONOPS)",
+      "description": "Un concept d'opérations est un document de haut niveau qui définit la vision, les objectifs et les stratégies opérationnelles d'un aéroport. Il décrit le fonctionnement quotidien de l'aéroport, détaillant les rôles et responsabilités des parties prenantes, telles que les compagnies aériennes, les autorités aéroportuaires et les agences de sécurité. Le CONOPS décrit également les processus de traitement des passagers et du fret, les procédures d'intervention d'urgence et l'intégration de nouveaux systèmes et technologies."
+    },
+    "runways": {
+      "title": "Conception de pistes, voies de circulation et aires de stationnement avec systèmes et installations associés",
+      "description": "La conception des infrastructures côté piste implique la planification détaillée des pistes, voies de circulation et aires de stationnement pour répondre aux exigences de capacité, de sécurité et de réglementation. Cela comprend l'ingénierie des structures de chaussées pour résister aux charges lourdes des aéronefs, le drainage des eaux pluviales pour prévenir les inondations, les systèmes électriques et d'éclairage (courants forts et courants faibles), les marquages horizontaux et verticaux pour la navigation, et les systèmes de balisage lumineux d'aérodrome (AGL) pour les opérations de nuit et par faible visibilité."
+    },
+    "heliport": {
+      "title": "Conception d'héliports avec systèmes et installations associés",
+      "description": "La conception d'héliports implique la planification et l'ingénierie des aires d'atterrissage et de décollage spécifiquement destinées aux hélicoptères, en conformité avec les normes internationales de l'aviation. Cela comprend la conception des trajectoires d'approche et de départ, les systèmes d'éclairage pour la visibilité, les installations de lutte contre l'incendie et de secours, les systèmes de communication et les marquages de sécurité."
+    },
+    "controlTower": {
+      "title": "Conception de tours de contrôle avec systèmes et installations associés",
+      "description": "La conception d'une tour de contrôle de la circulation aérienne (ATC) nécessite de prendre en compte à la fois la fonctionnalité architecturale et l'efficacité opérationnelle. La structure doit offrir une vue dégagée sur toutes les aires de mouvement, tandis que ses systèmes comprennent les équipements de communication, de navigation, de radar et de météorologie."
+    },
+    "highways": {
+      "title": "Conception d'autoroutes et de routes avec systèmes et installations associés",
+      "description": "La conception d'infrastructures routières comprend l'ingénierie des autoroutes, des routes de service et des installations de stationnement. Elle implique la conception des chaussées, le drainage, le marquage, l'éclairage et les systèmes de gestion du trafic pour assurer la fluidité des déplacements des passagers."
+    },
+    "supervision": {
+      "title": "Supervision de la construction pour les aéroports, héliports, autoroutes et routes",
+      "description": "La supervision de la construction garantit que tous les projets d'infrastructure sont exécutés conformément aux spécifications de conception, aux réglementations de sécurité et aux normes de qualité. Cela implique la surveillance des entrepreneurs, le suivi de l'avancement, la gestion des budgets et le respect des délais d'achèvement."
+    }
+  },
+  "ContactPage": {
+    "title": "Prenez Contact\nAvec Notre Équipe",
+    "address": "[ADRESSE]",
+    "socials": "[RÉSEAUX]",
+    "contact": "[CONTACT]",
+    "socialLinks": {
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "x": "X"
+    }
+  },
+  "OngoingProjects": [
+    {
+      "name": "'Nikola Tesla' Airport",
+      "location": "Belgrade, Serbia",
+      "tags": ["Extension de l'aire de retournement 30R", "Avant-projet pour une nouvelle aire de stationnement d'aviation générale"]
+    },
+    {
+      "name": "Serengeti International Airport",
+      "location": "Tanzania",
+      "tags": ["Service de conseil pour l'étude de faisabilité et la conception"]
+    },
+    {
+      "name": "Skardu Airport",
+      "location": "Pakistan",
+      "tags": ["Expansion de l'aéroport"]
+    },
+    {
+      "name": "'EXPO 2027' Belgrade",
+      "location": "Belgrade",
+      "tags": ["Nouveau vertiport et terminal de transport public", "Parking E3", "Conception de la rue Nova 5"]
+    },
+    {
+      "name": "Bukavu Airport",
+      "location": "DR Congo",
+      "tags": ["Extension de la piste existante"]
+    },
+    {
+      "name": "Lubumbashi Airport",
+      "location": "DR Congo",
+      "tags": ["Expansion de l'aire de stationnement existante"]
+    }
+  ]
+}

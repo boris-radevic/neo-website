@@ -1,0 +1,174 @@
+{
+  "Metadata": {
+    "title": "NEO - Engineering the Future of Flight",
+    "description": "From concept to completion, NEO delivers world-class engineering solutions for airports and aerodromes."
+  },
+  "Navbar": {
+    "menu": "Menu",
+    "links": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "contact": "Contact Us"
+    },
+    "copyright": "2026 NEO",
+    "location": "Belgrade, Serbia"
+  },
+  "Footer": {
+    "siteMap": "[SITE MAP]",
+    "contact": "[CONTACT]",
+    "address": "[ADDRESS]",
+    "links": {
+      "home": "home",
+      "about": "about",
+      "projects": "projects",
+      "contact": "contact"
+    },
+    "addressLines": {
+      "street": "42, Narodnih heroja St.",
+      "city": "11070 Belgrade",
+      "country": "Serbia"
+    }
+  },
+  "HomePage": {
+    "hero": {
+      "line1": "Engineering the",
+      "line2": "Future of Flight.",
+      "subtitle": "From concept to completion, NEO delivers world-class engineering solutions for airports and aerodromes."
+    },
+    "about": {
+      "highlight": "NEO Aerodromes Engineering is a leading Serbian engineering consultancy",
+      "rest": "and design firm specializing in airport design and infrastructure.",
+      "readMore": "Read More"
+    },
+    "services": {
+      "title1": "What we engineer,",
+      "title2": "plan, and supervise."
+    },
+    "cta": {
+      "text": "With a multidisciplinary team and a decade of proven expertise, we design safe, sustainable, and future-ready aviation infrastructure",
+      "button": "Contact Us"
+    },
+    "currentProjects": {
+      "title": "A selection of projects NEO is currently working on."
+    }
+  },
+  "AboutPage": {
+    "hero": {
+      "title": "Who We Are",
+      "subtitle": "NEO Aerodromes Engineering is a leading Serbian engineering consultancy and design firm specializing in airport design and infrastructure."
+    },
+    "mission": {
+      "highlight": "Driven by precision, innovation, and responsibility, we approach every project",
+      "rest": "with a strong commitment to quality, safety, and future readiness."
+    },
+    "description": {
+      "p1": "NEO Aerodromes Engineering is a leading Serbian engineering consultancy and design firm specializing in airport design and infrastructure. Since our establishment in 2014, we have been committed to delivering high-quality, comprehensive and expertly engineered design solutions for civil aviation infrastructure projects— both within Serbia and across international markets.",
+      "p2": "Based in Belgrade, we operate as a multidisciplinary firm composed of a rich and diverse team of civil engineers, structural engineers, hydrotechnical experts, traffic engineers, electrical and telecommunications systems specialists and architects. Our collective knowledge allows us to address complex infrastructural challenges with an integrated and holistic approach.",
+      "p3": "With a highly qualified team possessing decades of combined experience, NEO has played a pivotal role in modernizing and expanding key national and regional airports. Our expertise spans from master planning and civil design to pavement structures, stormwater drainage systems, electrical infrastructure, airside and landside markings, and site supervision.",
+      "p4": "We are proud to contribute to the advancement of air transport by delivering safe, sustainable, and efficient airport environments aligned with ICAO standards and EASA regulations, client expectations, and the ever-evolving demands of the aviation industry. Driven by precision, innovation, and responsibility, we approach every project with a strong commitment to quality, safety, and future readiness."
+    },
+    "services": {
+      "title1": "What we engineer,",
+      "title2": "plan, and supervise."
+    }
+  },
+  "ProjectsPage": {
+    "hero": {
+      "title1": "Experience Across",
+      "title2": "Airport Projects",
+      "count": "[15]",
+      "subtitle": "An overview of completed and ongoing projects across national and regional airports."
+    },
+    "finishedLabel": "Finished Projects",
+    "finishedCount": "[8]",
+    "ongoingTitle": "A selection of projects NEO is currently working on."
+  },
+  "ProjectTemplate": {
+    "country": "Country",
+    "employer": "Employer",
+    "contractDate": "Contract date",
+    "beneficiary": "Beneficiary",
+    "disciplines": "Disciplines",
+    "aboutProject": "About Project",
+    "scopeOfProject": "Scope of Project",
+    "nextProject": "[next project]"
+  },
+  "MapSection": {
+    "title": "Infrastructure projects delivered with precision and care.",
+    "seeAll": "See All"
+  },
+  "Services": {
+    "masterPlans": {
+      "title": "Development of Master Plans for International and Domestic Airports",
+      "description": "Master plans serve as long-term strategic frameworks for the development of airports, ensuring they can meet future demand while complying with regulatory, environmental, and operational requirements. They include forecasts of passenger and cargo traffic, plans for infrastructure expansion, land use strategies, environmental considerations, and integration of new technologies."
+    },
+    "conops": {
+      "title": "Concept of Operations (CONOPS)",
+      "description": "A Concept of Operations is a high-level document that defines the vision, goals, and operational strategies for an airport. It describes how the airport will function day-to-day, detailing the roles and responsibilities of stakeholders, such as airlines, airport authorities, and security agencies. CONOPS also outlines processes for passenger and cargo handling, emergency response procedures, and the incorporation of new systems and technologies."
+    },
+    "runways": {
+      "title": "Design of Runways, Taxiways, and Aprons with Associated Systems and Installations",
+      "description": "The design of airside infrastructure involves detailed planning of runways, taxiways, and aprons to meet capacity, safety, and regulatory requirements. This includes pavement structure engineering to withstand heavy aircraft loads, stormwater drainage to prevent flooding, electrical and lighting systems (both heavy and weak current), horizontal and vertical markings for navigation, and airfield ground lighting (AGL) systems for night and low visibility operations."
+    },
+    "heliport": {
+      "title": "Heliport Design with Associated Systems and Installations",
+      "description": "Heliport design involves planning and engineering landing and take-off areas specifically for helicopters, ensuring compliance with international aviation standards. This includes the design of approach and departure paths, lighting systems for visibility, firefighting and rescue facilities, communication systems, and safety markings."
+    },
+    "controlTower": {
+      "title": "Control Tower Design with Associated Systems and Installations",
+      "description": "Designing an air traffic control (ATC) tower requires consideration of both architectural functionality and operational efficiency. The structure must provide unobstructed views of all movement areas, while its systems include communication, navigation, radar, and meteorological equipment."
+    },
+    "highways": {
+      "title": "Highways and Road Design with Associated Systems and Installations",
+      "description": "Road infrastructure design includes the engineering of highways, service roads, and parking facilities. It involves pavement design, drainage, marking, lighting, and traffic management systems to ensure smooth passenger movements."
+    },
+    "supervision": {
+      "title": "Construction Supervision for Airports, Heliports, Highways, and Roads",
+      "description": "Construction supervision ensures that all infrastructure projects are executed according to design specifications, safety regulations, and quality standards. This involves overseeing contractors, monitoring progress, managing budgets, and ensuring timely completion."
+    }
+  },
+  "ContactPage": {
+    "title": "Get in Touch\nWith Our Team",
+    "address": "[ADDRESS]",
+    "socials": "[SOCIALS]",
+    "contact": "[CONTACT]",
+    "socialLinks": {
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "x": "X"
+    }
+  },
+  "OngoingProjects": [
+    {
+      "name": "'Nikola Tesla' Airport",
+      "location": "Belgrade, Serbia",
+      "tags": ["Extension of turnpad 30R", "Concept Design for new general aviation apron"]
+    },
+    {
+      "name": "Serengeti International Airport",
+      "location": "Tanzania",
+      "tags": ["Consultancy service for feasibility study & design"]
+    },
+    {
+      "name": "Skardu Airport",
+      "location": "Pakistan",
+      "tags": ["Expansion of the airport"]
+    },
+    {
+      "name": "'EXPO 2027' Belgrade",
+      "location": "Belgrade",
+      "tags": ["New vertiport & public transport terminal", "E3 parking lot", "Design for Nova 5 street"]
+    },
+    {
+      "name": "Bukavu Airport",
+      "location": "DR Congo",
+      "tags": ["Extension of the existing runway"]
+    },
+    {
+      "name": "Lubumbashi Airport",
+      "location": "DR Congo",
+      "tags": ["Expansion of the existing apron"]
+    }
+  ]
+}
