@@ -117,73 +117,79 @@ export default async function Footer() {
 
         {/* Row 2, Cell 1 — Site Map */}
         <div className="border-b border-white/30 p-8 md:border-b-0 md:border-r md:border-white/30 md:p-10">
-          <h3 className="mb-6 text-2xl font-light uppercase leading-[1.1] tracking-tight text-white/40">
-            {t("siteMap")}
-          </h3>
-          <nav className="flex flex-col gap-2.5">
-            <Link
-              href="/"
-              className="text-sm font-light text-white transition-colors hover:text-white"
-            >
-              {t("links.home")}
-            </Link>
-            <Link
-              href="/about"
-              className="text-sm font-light text-white transition-colors hover:text-white"
-            >
-              {t("links.about")}
-            </Link>
-            <Link
-              href="/projects"
-              className="text-sm font-light text-white transition-colors hover:text-white"
-            >
-              {t("links.projects")}
-            </Link>
-            <Link
-              href="/contact"
-              className="text-sm font-light text-white transition-colors hover:text-white"
-            >
-              {t("links.contact")}
-            </Link>
-          </nav>
+          <div className="flex items-start justify-between md:block">
+            <nav className="flex flex-col gap-2.5">
+              <Link
+                href="/"
+                className="text-base font-light text-white transition-colors hover:text-white md:text-sm"
+              >
+                {t("links.home")}
+              </Link>
+              <Link
+                href="/about"
+                className="text-base font-light text-white transition-colors hover:text-white md:text-sm"
+              >
+                {t("links.about")}
+              </Link>
+              <Link
+                href="/projects"
+                className="text-base font-light text-white transition-colors hover:text-white md:text-sm"
+              >
+                {t("links.projects")}
+              </Link>
+              <Link
+                href="/contact"
+                className="text-base font-light text-white transition-colors hover:text-white md:text-sm"
+              >
+                {t("links.contact")}
+              </Link>
+            </nav>
+            <h3 className="text-lg font-light uppercase leading-[1.1] tracking-tight text-white/40 md:mb-6 md:text-2xl md:order-first">
+              {t("siteMap")}
+            </h3>
+          </div>
         </div>
 
         {/* Row 2, Cell 2 — Contact */}
         <div className="border-b border-white/30 p-8 md:border-b-0 md:border-r md:border-white/30 md:p-10">
-          <h3 className="mb-6 text-2xl font-light uppercase leading-[1.1] tracking-tight text-white/40">
-            {t("contact")}
-          </h3>
-          <div className="flex flex-col gap-2.5">
-            <a
-              href="tel:+381643344933"
-              className="text-sm font-light text-white transition-colors hover:text-white"
-            >
-              +38164 3344933
-            </a>
-            <a
-              href="tel:+381117357151"
-              className="text-sm font-light text-white transition-colors hover:text-white"
-            >
-              +381 117357151
-            </a>
-            <a
-              href="mailto:office@neo.co.rs"
-              className="text-sm font-light text-white transition-colors hover:text-white"
-            >
-              office@neo.co.rs
-            </a>
+          <div className="flex items-start justify-between md:block">
+            <div className="flex flex-col gap-2.5">
+              <a
+                href="tel:+381643344933"
+                className="text-sm font-light text-white transition-colors hover:text-white"
+              >
+                +38164 3344933
+              </a>
+              <a
+                href="tel:+381117357151"
+                className="text-sm font-light text-white transition-colors hover:text-white"
+              >
+                +381 117357151
+              </a>
+              <a
+                href="mailto:office@neo.co.rs"
+                className="text-sm font-light text-white transition-colors hover:text-white"
+              >
+                office@neo.co.rs
+              </a>
+            </div>
+            <h3 className="text-lg font-light uppercase leading-[1.1] tracking-tight text-white/40 md:mb-6 md:text-2xl md:order-first">
+              {t("contact")}
+            </h3>
           </div>
         </div>
 
         {/* Row 2, Cell 3 — Address */}
         <div className="p-8 md:p-10">
-          <h3 className="mb-6 text-2xl font-light uppercase leading-[1.1] tracking-tight text-white/40">
-            {t("address")}
-          </h3>
-          <div className="flex flex-col gap-2.5 text-sm font-light text-white">
-            <span>{t("addressLines.street")}</span>
-            <span>{t("addressLines.city")}</span>
-            <span>{t("addressLines.country")}</span>
+          <div className="flex items-start justify-between md:block">
+            <div className="flex flex-col gap-2.5 text-sm font-light text-white">
+              <span>{t("addressLines.street")}</span>
+              <span>{t("addressLines.city")}</span>
+              <span>{t("addressLines.country")}</span>
+            </div>
+            <h3 className="text-lg font-light uppercase leading-[1.1] tracking-tight text-white/40 md:mb-6 md:text-2xl md:order-first">
+              {t("address")}
+            </h3>
           </div>
         </div>
       </div>

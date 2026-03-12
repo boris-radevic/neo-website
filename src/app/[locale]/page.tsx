@@ -150,11 +150,11 @@ export default async function Home({
           />
 
           {/* Overlay */}
-          <div className="absolute inset-0 bg-black/20" />
+          <div className="absolute inset-0 bg-black/40 md:bg-black/20" />
 
           {/* Animated grid lines + cell 1,1 text */}
           <AnimatedGrid>
-            <p className="text-base font-light uppercase leading-snug tracking-wide text-white/90 md:text-lg lg:text-xl">
+            <p className="text-xs font-light uppercase leading-snug tracking-wide text-white/90 md:text-lg lg:text-xl">
               {t("cta.text")}
             </p>
           </AnimatedGrid>
@@ -215,17 +215,19 @@ export default async function Home({
                 key={i}
                 className={`grid grid-cols-1 items-center gap-4 border-white/40 py-6 md:grid-cols-[1fr_auto_1fr] ${i > 0 ? "border-t" : ""} ${i === arr.length - 1 ? "border-b" : ""}`}
               >
-                <span className="text-lg font-light text-white md:text-base">
-                  {project.name}
-                </span>
-                <span className="text-lg font-light text-white md:text-base">
-                  [{project.location}]
-                </span>
-                <div className="flex flex-wrap justify-end gap-2">
+                <div className="flex items-center justify-between md:contents">
+                  <span className="text-lg font-bold text-white md:text-base md:font-light">
+                    {project.name}
+                  </span>
+                  <span className="text-sm font-light text-white/60 md:text-base md:text-white">
+                    [{project.location}]
+                  </span>
+                </div>
+                <div className="flex flex-wrap justify-start md:justify-end gap-2">
                   {project.tags.map((tag, j) => (
                     <span
                       key={j}
-                      className="rounded-full border border-white px-4 py-1.5 text-base font-light text-white"
+                      className="rounded-full border border-white px-3 py-1 text-sm md:px-4 md:py-1.5 md:text-base font-light text-white"
                     >
                       {tag}
                     </span>

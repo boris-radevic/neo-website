@@ -97,43 +97,30 @@ export default async function Contact({
           <div className="flex flex-col justify-between gap-8 p-8 md:p-10">
             {/* Address */}
             <div className="flex items-start justify-between gap-6">
-              <div className="flex flex-col gap-2">
-                <span className="block h-3 w-3 bg-white" />
-                <span className="text-2xl font-light uppercase leading-[1.1] tracking-tight text-white/40">
-                  {t("address")}
-                </span>
-              </div>
-              <div className="flex flex-col items-end gap-1.5 text-[20px] font-light text-white">
+              <div className="flex flex-col items-start gap-1.5 text-base font-light text-white md:text-[20px]">
                 <span>{tFooter("addressLines.street")}</span>
                 <span>{tFooter("addressLines.city")}</span>
                 <span>{tFooter("addressLines.country")}</span>
               </div>
+              <span className="text-lg font-light uppercase leading-[1.1] tracking-tight text-white/40 md:text-2xl">
+                {t("address")}
+              </span>
             </div>
 
             {/* Socials */}
             <div className="flex items-start justify-between gap-6">
-              <div className="flex flex-col gap-2">
-                <span className="block h-3 w-3 bg-white" />
-                <span className="text-2xl font-light uppercase leading-[1.1] tracking-tight text-white/40">
-                  {t("socials")}
-                </span>
-              </div>
-              <div className="flex flex-col items-end gap-1.5 text-[20px] font-light text-white">
+              <div className="flex flex-col items-start gap-1.5 text-base font-light text-white md:text-[20px]">
                 <span className="text-white/30">{t("socialLinks.instagram")}</span>
                 <span className="text-white/30">{t("socialLinks.linkedin")}</span>
-                <span className="text-white/30">{t("socialLinks.x")}</span>
               </div>
+              <span className="text-lg font-light uppercase leading-[1.1] tracking-tight text-white/40 md:text-2xl">
+                {t("socials")}
+              </span>
             </div>
 
             {/* Contact */}
             <div className="flex items-start justify-between gap-6">
-              <div className="flex flex-col gap-2">
-                <span className="block h-3 w-3 bg-white" />
-                <span className="text-2xl font-light uppercase leading-[1.1] tracking-tight text-white/40">
-                  {t("contact")}
-                </span>
-              </div>
-              <div className="flex flex-col items-end gap-1.5 text-[20px] font-light text-white">
+              <div className="flex flex-col items-start gap-1.5 text-base font-light text-white md:text-[20px]">
                 <a href="tel:+381643344933" className="transition-colors hover:text-white/60">
                   +38164 3344933
                 </a>
@@ -144,6 +131,9 @@ export default async function Contact({
                   office@neo.co.rs
                 </a>
               </div>
+              <span className="text-lg font-light uppercase leading-[1.1] tracking-tight text-white/40 md:text-2xl">
+                {t("contact")}
+              </span>
             </div>
           </div>
         </div>

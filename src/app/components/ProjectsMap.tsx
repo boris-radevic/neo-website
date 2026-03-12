@@ -20,16 +20,16 @@ interface Project {
 
 const projects: Project[] = [
   // Serbia
-  { name: "Belgrade Nikola Tesla Airport", country: "Serbia", countryId: "688" },
-  { name: "Niš Constantine the Great Airport", country: "Serbia", countryId: "688" },
+  { name: "Nikola Tesla Airport, Belgrade" , country: "Serbia", countryId: "688" },
+  { name: "Constantine the Great Airport, Niš", country: "Serbia", countryId: "688" },
   { name: "Vršac Airport", country: "Serbia", countryId: "688" },
-  { name: "Kruševac-Rosulje Airfield", country: "Serbia", countryId: "688" },
-  { name: "Pančevo Airport Master Plan", country: "Serbia", countryId: "688" },
-  { name: "Lisičji Jarak Airport Master Plan", country: "Serbia", countryId: "688" },
-  { name: "Morava Airport Kraljevo", country: "Serbia", countryId: "688" },
+  { name: "Rosulje Airport, Kruševac", country: "Serbia", countryId: "688" },
+  { name: "Master Plan for Pančevo Airport", country: "Serbia", countryId: "688" },
+  { name: "Master Plan for Lisičji Jarak Airport", country: "Serbia", countryId: "688" },
+  { name: "Morava Airport, Kraljevo", country: "Serbia", countryId: "688" },
   { name: "Heliport Kopaonik", country: "Serbia", countryId: "688" },
-  { name: "Heliport MUP", country: "Serbia", countryId: "688" },
-  { name: "EXPO 2027 Belgrade", country: "Serbia", countryId: "688" },
+  { name: "Heliport MUP, Nikola Tesla Airport", country: "Serbia", countryId: "688" },
+  { name: "EXPO 2027, Belgrade", country: "Serbia", countryId: "688" },
   // Moldova
   { name: "Kishinev International Airport", country: "Moldova", countryId: "498" },
   // DR Congo
@@ -37,11 +37,12 @@ const projects: Project[] = [
   { name: "Bukavu Airport", country: "DR Congo", countryId: "180" },
   { name: "Lubumbashi Airport", country: "DR Congo", countryId: "180" },
   // Senegal
-  { name: "Matam Airport", country: "Senegal", countryId: "686" },
   { name: "Saint-Louis Airport", country: "Senegal", countryId: "686" },
-  { name: "Ouro Sogui Airport", country: "Senegal", countryId: "686" },
+  { name: "Ouro Sogui Airport, Matam", country: "Senegal", countryId: "686" },
   // Tanzania
   { name: "Serengeti International Airport", country: "Tanzania", countryId: "834" },
+  { name: "Lake Manyara Airport", country: "Tanzania", countryId: "834" },
+
   // Pakistan
   { name: "Skardu Airport", country: "Pakistan", countryId: "586" },
 ];
