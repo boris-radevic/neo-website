@@ -52,12 +52,6 @@ function ProjectCard({ project }: { project: (typeof finishedProjects)[number] }
           fill
           className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/10 to-black/20" />
-        {/* Monotone noise (#0E0E0E, 35%, size 0.5) */}
-        <svg className="pointer-events-none absolute inset-0 h-full w-full" style={{ zIndex: 1 }} aria-hidden>
-          <rect width="100%" height="100%" fill="#0E0E0E" filter="url(#projectsCardNoise)" />
-        </svg>
 
         {/* Edge lines levo, na sredini, okrenute ka sredini (kao HeroEdgeLines) */}
         <div
@@ -198,19 +192,6 @@ export default async function Projects({
 
       {/* Project cards gallery */}
       <section className="relative px-6 pb-24 md:px-10">
-        {/* Filter za monotone noise na karticama (definisan jednom) */}
-        <svg width="0" height="0" className="absolute" aria-hidden>
-          <defs>
-            <filter id="projectsCardNoise">
-              <feTurbulence type="fractalNoise" baseFrequency="0.5" numOctaves="3" result="noise" />
-              <feColorMatrix in="noise" type="saturate" values="0" result="gray" />
-              <feComponentTransfer in="gray" result="alpha">
-                <feFuncA type="linear" slope="0.35" />
-              </feComponentTransfer>
-              <feComposite in="SourceGraphic" in2="alpha" operator="in" />
-            </filter>
-          </defs>
-        </svg>
         <div className="flex flex-col gap-4">
           {rows.map((row, rowIndex) => {
             const layout = rowLayouts[rowIndex % rowLayouts.length];

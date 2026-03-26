@@ -52,20 +52,6 @@ export default async function ProjectTemplate({
   const t = await getTranslations("ProjectTemplate");
   return (
     <main className="min-h-screen bg-[#0a0a0a]">
-      {/* Monotone noise filter (Size 0.5, Density 100%, #0E0E0E, 35%) – koristi se na svim slikama */}
-      <svg width="0" height="0" className="absolute" aria-hidden>
-        <defs>
-          <filter id="projectPageNoise">
-            <feTurbulence type="fractalNoise" baseFrequency="0.5" numOctaves="3" result="noise" />
-            <feColorMatrix in="noise" type="saturate" values="0" result="gray" />
-            <feComponentTransfer in="gray" result="alpha">
-              <feFuncA type="linear" slope="0.35" />
-            </feComponentTransfer>
-            <feComposite in="SourceGraphic" in2="alpha" operator="in" />
-          </filter>
-        </defs>
-      </svg>
-
       {/* Hero */}
       <section className="relative h-screen">
         <Image
@@ -75,10 +61,6 @@ export default async function ProjectTemplate({
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-black/40" />
-        <svg className="pointer-events-none absolute inset-0 h-full w-full" style={{ zIndex: 1 }} aria-hidden>
-          <rect width="100%" height="100%" fill="#0E0E0E" filter="url(#projectPageNoise)" />
-        </svg>
 
         {/* Naslov + subtitle gore levo (prva slika iz airports) */}
         <div
@@ -416,10 +398,6 @@ export default async function ProjectTemplate({
               fill
               className="object-cover transition-transform duration-500 group-hover:scale-105"
             />
-            <div className="absolute inset-0 bg-black/20" />
-            <svg className="pointer-events-none absolute inset-0 h-full w-full" style={{ zIndex: 1 }} aria-hidden>
-              <rect width="100%" height="100%" fill="#0E0E0E" filter="url(#projectPageNoise)" />
-            </svg>
 
             {/* Strelica gore desno: desno (default) → expand (hover), kao na karticama */}
             <div className="absolute top-5 right-5 z-5">
