@@ -1,4 +1,12 @@
-import { ProjectData } from "./ProjectTemplate";
+import type { ProjectData as TemplateProjectData } from "./ProjectTemplate";
+
+// `projectData` still contains legacy fields used by the previous multi-image template.
+// The current template ignores them, but we keep them here without breaking typing.
+type ProjectData = TemplateProjectData & {
+  descriptionImage?: string;
+  descriptionImageTitle?: string;
+  galleryImages?: string[];
+};
 
 /** Putanje podslike za projekat: description + galerija. Slike stavi u public/airports/{slug}/ */
 function projectImages(slug: string) {
@@ -58,7 +66,7 @@ const projects: Record<string, ProjectData> = {
   kishinev: {
     title: "Kishinev\nInternational Airport",
     subtitle: "[ICAO – LUKK, IATA – KIV]",
-    heroImage: "/airports/kishinev.jpg",
+    heroImage: "/airports/kishinev/Hero.jpg",
     country: "Moldova",
     employer: "Compania Aeroportul\nInternational Chisinau",
     contractDate: "2015 - 2016",
@@ -132,7 +140,7 @@ const projects: Record<string, ProjectData> = {
   nis: {
     title: "Constantine the Great Airport",
     subtitle: "[ICAO – LYNI, IATA – INI]",
-    heroImage: "/airports/konstantin.jpg",
+    heroImage: "/airports/nis/Hero.jpg",
     country: "Serbia",
     employer: "Airports of Serbia",
     contractDate: "2022-2024",
@@ -184,7 +192,7 @@ const projects: Record<string, ProjectData> = {
   belgrade: {
     title: "Belgrade Nikola Tesla Airport",
     subtitle: "[ICAO – LYBE, IATA – BEG]",
-    heroImage: "/airports/tesla.jpg",
+    heroImage: "/airports/nikolatesla.jpg",
     country: "Serbia",
     employer: "Vinci Terna Construction JV",
     contractDate: "2019-2024",
@@ -271,7 +279,7 @@ const projects: Record<string, ProjectData> = {
   vrsac: {
     title: "Vršac Airport",
     subtitle: "[ICAO – LYVR]",
-    heroImage: "/airports/vrsac.jpg",
+    heroImage: "/airports/vrsacairport.jpg",
     country: "Serbia",
     employer: "Airports of Serbia",
     contractDate: "2024",
@@ -325,7 +333,7 @@ const projects: Record<string, ProjectData> = {
   "krusevac-rosulje": {
     title: "Kruševac-Rosulje Airfield",
     subtitle: "[ICAO – GOSM, IATA -MAX]",
-    heroImage: "/airports/rosulje.jpg",
+    heroImage: "/airports/krusevac.jpg",
     country: "Serbia",
     employer: "Airports of Serbia",
     contractDate: "2023-2024",
@@ -374,7 +382,7 @@ const projects: Record<string, ProjectData> = {
   "ouro-sogui": {
     title: "Ouro Sogui Airport",
     subtitle: "[ICAO – GOSM, IATA -MAX]",
-    heroImage: "/airports/ouro-sogui.jpg",
+    heroImage: "/airports/ouro-sogui/Hero.jpeg",
     country: "Senegal",
     employer: "Transcon Electronic Systems S.R.O. Prague, Czech Republic",
     contractDate: "2018 – 2024",
@@ -418,7 +426,7 @@ const projects: Record<string, ProjectData> = {
   pancevo: {
     title: "Pančevo Airport Master Plan",
     subtitle: "[Serbia]",
-    heroImage: "/airports/pancevo.jpg",
+    heroImage: "/airports/pancevo.png",
     country: "Serbia",
     employer: "City of Pančevo",
     contractDate: "2020",
@@ -435,7 +443,7 @@ const projects: Record<string, ProjectData> = {
   "lisiciji-jarak": {
     title: "Lisičji Jarak Airport Master Plan",
     subtitle: "[Serbia]",
-    heroImage: "/airports/lisiciji.jpg",
+    heroImage: "/airports/lisiciji.png",
     country: "Serbia",
     employer: "Government of Serbia",
     contractDate: "2020",
@@ -452,7 +460,7 @@ const projects: Record<string, ProjectData> = {
   kopaonik: {
     title: "Heliport Kopaonik",
     subtitle: "[Serbia]",
-    heroImage: "/airports/kopaonik.jpg",
+    heroImage: "/airports/kopaonik.png",
     country: "Serbia",
     employer: "Kopaonik Resort",
     contractDate: "2021",
@@ -486,7 +494,7 @@ const projects: Record<string, ProjectData> = {
   morava: {
     title: "Morava Airport Kraljevo",
     subtitle: "[ICAO – LYKV, IATA – KVO]",
-    heroImage: "/airports/morava.jpg",
+    heroImage: "/airports/kraljevo.jpg",
     country: "Serbia",
     employer: "Airports of Serbia",
     contractDate: "2023",

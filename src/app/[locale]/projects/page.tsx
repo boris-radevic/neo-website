@@ -1,6 +1,7 @@
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import { setRequestLocale, getTranslations } from "next-intl/server";
+import projects from "./[name]/projectData";
 
 const finishedProjects = [
   { name: "Kishinev\nInternational Airport", slug: "kishinev" },
@@ -31,9 +32,8 @@ const rowLayouts = [
 
 function ProjectCard({ project }: { project: (typeof finishedProjects)[number] }) {
   const imageSrc =
-    "image" in project && project.image
-      ? `/airports/${encodeURIComponent(project.image)}`
-      : `/airports/${project.slug}.jpg`;
+    (projects as Record<string, { heroImage?: string }>)[project.slug]?.heroImage ??
+    ("image" in project && project.image ? `/airports/${encodeURIComponent(project.image)}` : `/airports/${project.slug}.jpg`);
   return (
     <Link
       href={`/projects/${project.slug}`}
@@ -53,7 +53,7 @@ function ProjectCard({ project }: { project: (typeof finishedProjects)[number] }
           className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
         {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-black/20" />
+        <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/10 to-black/20" />
         {/* Monotone noise (#0E0E0E, 35%, size 0.5) */}
         <svg className="pointer-events-none absolute inset-0 h-full w-full" style={{ zIndex: 1 }} aria-hidden>
           <rect width="100%" height="100%" fill="#0E0E0E" filter="url(#projectsCardNoise)" />
@@ -61,7 +61,7 @@ function ProjectCard({ project }: { project: (typeof finishedProjects)[number] }
 
         {/* Edge lines levo, na sredini, okrenute ka sredini (kao HeroEdgeLines) */}
         <div
-          className="pointer-events-none absolute left-0 top-1/2 z-[5] hidden -translate-y-1/2 md:block"
+          className="pointer-events-none absolute left-0 top-1/2 z-5 hidden -translate-y-1/2 md:block"
           aria-hidden
         >
           <svg width="24" height="246" viewBox="0 0 24 246" fill="none">
@@ -173,7 +173,7 @@ export default async function Projects({
         <div className="relative z-10">
           {/* Main heading + description row */}
           <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
-            <h1 className="font-inter text-[40px] font-normal leading-[1] tracking-[-0.03em] text-white md:text-[64px]">
+            <h1 className="font-inter text-[40px] font-normal leading-none tracking-[-0.03em] text-white md:text-[64px]">
               {t("hero.title1")}
               <br />
               {t("hero.title2")}
@@ -235,7 +235,7 @@ export default async function Projects({
         </div>
       </section>
       {/* Ongoing projects */}
-      <section className="relative z-[2] bg-[#0a0a0a] px-8">
+      <section className="relative z-2 bg-[#0a0a0a] px-8">
         <div className="py-16 md:py-20">
           <h2 className="mb-16 font-inter text-[26px] font-light uppercase leading-[1.1] tracking-[-0.02em] text-white md:text-[40px]">
             {t("ongoingTitle")}

@@ -3,7 +3,10 @@ import { setRequestLocale } from "next-intl/server";
 import projects from "./projectData";
 import ProjectTemplate from "./ProjectTemplate";
 
-// Redosled: Kishinev → Goma → Ouro Sogui → Saint Louis → Niš → Nikola Tesla → Vršac → Rosulje → Morava (next: Kishinev). Ostali projekti za sada izostavljeni.
+// Redosled (Next Project):
+// Kishinev → Goma → Matam/Ouro Sogui → Saint Louis → Konstantin Veliki (Niš)
+// → Nikola Tesla (Belgrade) → Pančevo → Lisičji Jarak → Vršac → Kruševac/Rosulje
+// → Heliport Kopaonik → Kraljevo (Morava) → Heliport MUP → (wrap) Kishinev
 const slugOrder = [
   "kishinev",
   "goma",
@@ -11,9 +14,13 @@ const slugOrder = [
   "saint-louis",
   "nis",
   "belgrade",
+  "pancevo",
+  "lisiciji-jarak",
   "vrsac",
   "krusevac-rosulje",
+  "kopaonik",
   "morava",
+  "mup",
 ];
 const orderedSlugs = slugOrder.filter((s) => s in projects);
 const allSlugs = Object.keys(projects);
